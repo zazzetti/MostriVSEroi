@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "smR8RrYIOrK6Qyk5qFY/KeAi4cfmZkx75LFvfQKGzYdAbngX3TKADXHI59DUgcPh2BHIJOs0YuccNWtlPjSnJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elena.zazzetti\\Desktop\\Week8\\Progetto\\MostriVSEroi\\MostriVSEroi.Core\\MostriVSEroi.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elena.zazzetti\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\elena.zazzetti\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

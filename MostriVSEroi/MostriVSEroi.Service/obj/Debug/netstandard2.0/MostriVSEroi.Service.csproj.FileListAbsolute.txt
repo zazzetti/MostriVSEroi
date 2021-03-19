@@ -1,0 +1,14 @@
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.Service.deps.json
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.Service.dll
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.Service.pdb
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.ADORepository.dll
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.Core.dll
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.ADORepository.pdb
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\bin\Debug\netstandard2.0\MostriVSEroi.Core.pdb
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.csprojAssemblyReference.cache
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.AssemblyInfoInputs.cache
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.AssemblyInfo.cs
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.csproj.CoreCompileInputs.cache
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.csproj.CopyComplete
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.dll
+C:\Users\elena.zazzetti\Desktop\Week8\Progetto\MostriVSEroi\MostriVSEroi.Service\obj\Debug\netstandard2.0\MostriVSEroi.Service.pdb

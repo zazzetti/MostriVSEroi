@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MostriVSEroi.ADORepository\MostriVSEroi.ADORepository.csproj" />
+    <ProjectReference Include="..\MostriVSEroi.Core\MostriVSEroi.Core.csproj" />
+  </ItemGroup>
+
+</Project>
