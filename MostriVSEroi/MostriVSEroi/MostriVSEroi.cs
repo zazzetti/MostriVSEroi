@@ -48,7 +48,6 @@ namespace MostriVSEroi
         private static MostroService mostroService { get; } = serviceProvider.GetService<MostroService>();
         private static GiocatoreService giocatoreService { get; } = serviceProvider.GetService<GiocatoreService>();
         private static LivelloService livelloService { get; } = serviceProvider.GetService<LivelloService>();
-
         private static EroeService eroeService { get; } = serviceProvider.GetService<EroeService>();
 
 
@@ -92,18 +91,18 @@ namespace MostriVSEroi
                     if (Eroe.Livello.ID < nuovoLivello.ID) // se i punti accumulati superano quelli del mio livello ma non superano quelli di un livello successivo non cambio livello
                     {
 
-                        Eroe.Livello = nuovoLivello;
+                        Eroe.Livello = nuovoLivello; // nuovo livello
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Congratulazioni! Sei passato al livello: " + Eroe.Livello.ID + "\n");
                         Console.ForegroundColor = ConsoleColor.Cyan;
 
-                        Eroe.PuntiVita = Eroe.Livello.PuntiVita;
+                        Eroe.PuntiVita = Eroe.Livello.PuntiVita; // aggiorno punti vita
                     }
                 }
             
             }
 
-            if (Eroe.PuntiAccumulati >= Vittoria) 
+            if (Eroe.PuntiAccumulati >= Vittoria) // controllo vittoria
             {
 
 
@@ -117,7 +116,12 @@ namespace MostriVSEroi
 
         }
 
-
+        /// <summary>
+        /// Attacco, metodo utilizzato sia per attacco Mostro-Eroe che per Eroe-Mostro
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
+        /// <returns>true se vince p1, false se vince p2</returns>
         private static bool Attacco(Personaggio p1, Personaggio p2)
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -137,7 +141,10 @@ namespace MostriVSEroi
             return false;
 
         }
-
+        /// <summary>
+        /// Metodo per Tentare la fuga
+        /// </summary>
+        /// <returns>true se la fuga è riuscita, false se non è riuscita</returns>
         private static bool TentaFuga()
         {
             Random random = new Random();
@@ -236,7 +243,7 @@ namespace MostriVSEroi
 
 
             int livello = Eroe.Livello.ID;
-            if (livello < LivelloMostri) // Se ho cambiato eroe ed ha un livello inferiore
+            if (livello < LivelloMostri) // Se ho cambiato eroe ed ha un livello inferiore, elimino dalla lista i mostri con livello superiore
             {
 
 
