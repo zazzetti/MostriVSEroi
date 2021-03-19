@@ -322,9 +322,6 @@ namespace MostriVSEroi
             {
                 //Estrazione Mostro
                 EstraiMostro();
-  
-
-
                 if (Mostro == null) return; //Eccezione generata
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
