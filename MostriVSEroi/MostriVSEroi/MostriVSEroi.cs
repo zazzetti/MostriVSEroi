@@ -322,8 +322,7 @@ namespace MostriVSEroi
             {
                 //Estrazione Mostro
                 EstraiMostro();
-                Console.WriteLine(Mostro.Nome + " " + Mostro.Livello.ID + " " + Mostro.PuntiVita);
-                Console.WriteLine(Eroe.Nome + " " + Eroe.Livello.ID + " " + Eroe.PuntiVita);
+  
 
 
                 if (Mostro == null) return; //Eccezione generata
