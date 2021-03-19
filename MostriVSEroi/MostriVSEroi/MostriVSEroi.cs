@@ -360,7 +360,7 @@ namespace MostriVSEroi
                             break;
                         case "S":
                             watch.Stop();
-                            Eroe.TempoDiGioco += (int)watch.ElapsedMilliseconds;
+                            Eroe.TempoDiGioco += (int)watch.ElapsedMilliseconds; // Aggiungo i tempi di gioco dell'eroe
                             watch.Reset();
                             eroeService.UpdateEroe(Eroe);
                             return;
