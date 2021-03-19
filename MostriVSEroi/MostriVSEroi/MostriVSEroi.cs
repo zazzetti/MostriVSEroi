@@ -336,11 +336,11 @@ namespace MostriVSEroi
                 //Scontro
                 if (!Scontro()) // se lo scontro non è andato a buon fine
                 {
-                    Mostro.PuntiVita = Mostro.Livello.PuntiVita;
+                    Mostro.PuntiVita = Mostro.Livello.PuntiVita; // resetto i punti vita di mostro
                     watch.Reset();
                     return;
                 }
-                Mostro.PuntiVita = Mostro.Livello.PuntiVita;
+                Mostro.PuntiVita = Mostro.Livello.PuntiVita; // resetto i punti vita di mostro
 
 
                 bool flag;
